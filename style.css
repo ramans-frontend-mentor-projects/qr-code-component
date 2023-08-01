@@ -1,0 +1,54 @@
+/*
+Burada style ayarla
+*/
+/* h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    font-family: Outfit;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    max-width: 300px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px 15px 40px 15px;
+}
+
+.card-image {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.card-description {
+    font-size: 15px;
+    color: darkgray;
+    margin-top: 15px;
+}
